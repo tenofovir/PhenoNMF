@@ -2,7 +2,7 @@
 
 PhenoNMF, a multimodal EHR phenotyping framework based on modified joint nonnegative matrix factorization. PhenoNMF simultaneously learns sparse phenotypes from diagnoses, laboratory tests, and medications. By excluding age from the decomposition and reintroducing it through age-weighted contribution projections, PhenoNMF simultaneously captures multimodality co-occurrence within each common pattern module (CPM) and compares them across age groups. Within each CPM, we define an Age Network Coupling Score (ANCS) that ranks diagnosis–laboratory–medication triads by the strength and age specificity of their cross-modality associations.
 
-![Method Overview](Graphical abstract.pdf)
+![Method Overview](sample_data/phenonmf_overview.png)
 
 ## Input Data
 
